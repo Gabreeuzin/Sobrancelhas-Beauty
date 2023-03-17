@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  font-size: 100%;
+  background: linear-gradient(68.15deg, #975d40 16.62%, #CA8462 85.61%);
+}
+/*Cabeçalho da Página - Parte Inicial */ 
+.cabeçalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+}
+.cabeçalho-imagem {
+  height: 7em;
+  margin: 0.2em 0.2em;
+} 
+.cabeçalho-menu {
+  display: flex;
+  gap: 32px;
+}
+.cabeçalho-menu-item:hover {
+  background-color: rgba(236, 214, 196, 0.53);
+}
+.cabeçalho-menu-item {
+  font-family: 'Sarala', sans-serif;
+  color: #FFF2E7;
+  font-weight: 400px;
+  font-size: 18px;
+}
+/* Conteúdo Principal da Página*/
+
+.conteudo {
+  margin-bottom: 48px;
+  border-top: 0.4px solid #FFF2E7;
+}
+.conteudo-principal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.conteudo-principal-escrito {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 32px;
+}
+.principal-titulo {
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+  font-size: 64px;
+  color: #FFF2E7;
+  margin-top: 1em;
+}
+.principal-subtitulo {
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ECD6C4;
+}
+.planta-design {
+  height: 15em;
+  flex-direction: row;
+  margin-left: 2em;
+}
+
+.tipologo {
+  width: 280px;
+  height: 300px;
+}
+
+/* Conteúdo Secundário da Página */
+
+.conteudo-secundario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 30px;
+}
+.titulo-secundario {
+  border-top: 0.4px solid #FFF2E7;
+  padding-top: 48px;
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+  font-size: 24px;
+  color: #FFF2E7;
+  margin-bottom: 16px;
+}
+.secundario-paragrafo {
+  font-family: 'Sarala', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: #ECD6C4;
+}
+.rodape {
+  padding: 32px;
+  border-top: 0.4px solid #FFF2E7;
+  margin: 30 auto;
+}
+#servicos-oferecidos h2 {
+ background-color: #ECD6C4;
+ text-align: center;
+ padding: 2em;
+ font-weight: 500;
+ color: #975d40;
+}
+
+
+.servicos {
+  display: flex;
+  justify-content: space-around;
+  padding: 4em;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.servico {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 20%;
+  color: #FFF2E7 ;
+}
+.servico .servico-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 1em;
+}
+
+#servico-1 {
+  background-image: url("img/Sobrancelha\ 1.jfif")
+
+}
+#servico-2 {
+  background-image: url("img/Make\ 2.jfif") 
+
+}
+#servico-3 {
+  background-image: url("img/Argiloterapia\ 1.jpg")
+
+}
+
+#beneficios {
+  width: 80%;
+  margin: 0 auto;
+}
+.beneficio {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 5%;
+  margin-bottom: 4em; 
+}
+.beneficio img {
+  width: 50%;
+}
+.beneficio h3 {
+  margin-bottom: 1em;
+  font-size: 2em;
+  font-weight: 500;
+  color: #FFF2E7 ;
+}
+#beneficio-1 h3 {
+  font-size: 3em;
+  font-weight: 700;
+}
+
+#beneficio-3{
+  flex-direction: row-reverse;
+}
+
+.descricao-beneficios {
+  width: 100%;
+  padding-left: 2em;
+}
+
+.descricao-beneficios ul {
+  list-style-position: inside;
+  font-family: 'Sarala', sans-serif;
+  color: #2F2325;
+  font-weight: bold;
+  
+}
+
+.descricao-beneficios ul li {
+
+  margin-bottom: 0.4em;
+}
+
+.descricao-beneficios ul li:last-child {
+  font-weight: bold;
+}
+
+#cta {
+  height: 150px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #2F2325;
+  background-color: #ECD6C4;
+  text-align: center;
+  padding: 2em;
+  font-weight: 500;
+  box-sizing: border-box;
+}
+#cta h3 {
+  margin-bottom: 1.2em;
+  font-size: 2em;
+  font-weight: 500;
+}
+
+.btn:hover {
+  background-color: #CA8462;
+
+}
+
+#cta .btn {
+  font-family: 'Sarala', sans-serif;
+  font-size: 4px;
+  color: #2F2325;
+  width: 120%;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 1.3em; 
+  cursor:pointer;
+  padding: 0.5em  0.3em;
+  box-shadow: #2F2325;
+}
+
+#footer {
+  text-align: center;
+  color: #ECD6C4;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#footer img {
+  margin-bottom: 600px;
+  height: 270px;
+  flex-direction: column;
+  margin-bottom: 1em;
+  font-size: 1.2em;
+  align-items: center;
+
+}
+#footer h2 {
+  font-size: 1.3em;
+  margin-bottom: .5em;
+  align-items: center;
+}
+
+
+@media (max-width: 450px) {
+    
+     
+
+  .btn {
+    opacity: 1;
+  }
+    .cabeçalho {
+     flex-direction: column;
+     height: auto;
+    }
+    .cabeçalho-imagem{
+      flex-direction: column;
+      height: 10em;
+      margin-bottom: 1em;
+
+    }
+
+    .cabeçalho-menu {
+      flex-direction:column;
+      height: auto;
+    }
+    .conteudo {
+      flex-direction: column;
+      align-items: center;
+      width: auto;
+      padding: 2em;
+    }
+    .conteudo-principal { 
+      flex-direction: column;
+      height: auto;
+    }
+    .conteudo-principal-escrito {
+      flex-direction: column;
+      align-items: center;
+      width: auto;
+      padding: 2em;
+    }
+    .conteudo-secundario {
+      flex-direction: column;
+      align-items: center;
+      width: auto;
+      padding: 2em;
+    }
+
+ 
+ 
+ 
+  #servicos-oferecidos {
+    flex-direction: column;
+    height: auto;
+  }
+  
+  .servicos {
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    padding: 2em;
+  }
+  .servico {
+    max-width: 100%;
+    margin-bottom: 2em;
+
+  }
+  .beneficio {
+    flex-direction: column;
+    margin-bottom: .5em;
+    gap: 0;
+  }
+  .beneficio img {
+    width: 100%;
+    margin: 2em 0;
+  }
+  #beneficio-1 img {
+    display: none;
+  }
+  .descricao-beneficios {
+    padding: 0;
+  }
+  #beneficio-3  img {
+    order: 2;
+  }
+  #beneficio-3 {
+    flex-direction: column;
+  }
+ #beneficio-2 img {
+  order: 1;
+ }  
+
+ #cta {
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+ }
+ #cta h3 {
+  margin-bottom: 1em  ;
+  font-size: 1em;
+  
+ }
+
+ #cta .btn {
+  width: 100%;
+ }
+ #footer img {
+  width: 100%;
+  align-items: center;
+
+
+ }
+ 
+}
+
+    
+
+
+
+
